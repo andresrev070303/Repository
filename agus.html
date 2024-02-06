@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>AGUS</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="agus.html">Agus</a></li>
+        <li><a href="cami.html">Cami</a></li>
+        <li><a href="wendy.html">Wendy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>    
+    <h1>Mis Intereses</h1>
+    <h2>Libros</h2>
+    <ul>
+      <li><cite>Libro 1 "La divina comedia" de Dante Alighieri</cite></li>
+      <li><cite>Libro 2 "August" de John Williams</cite></li>
+      <li><cite>Libro 3 "Metamorfosis" de Franz Kafka</cite></li>
+    </ul>
+
+    <h2>Deporte</h2>
+    <div class="flex-container">
+      <div class="flex-item">
+        <p>Me apasiona el deporte y disfruto practicar diferentes actividades físicas para mantenerme activo y saludable. Ya sea correr en el parque por las mañanas, nadar en la piscina local, jugar al fútbol los fines de semana o hacer senderismo en la montaña, encuentro que el deporte es una forma fantástica de liberar energía y mantenerme en forma.</p>
+      </div>
+      <div class="flex-item">
+        <img src="deporte.jpg" alt="Practicando deporte">
+      </div>
+    </div>
+    
+    <h2>Cantar</h2>
+    <div class="flex-container">
+      <div class="flex-item">
+        <p>Además del deporte, otra de mis grandes pasiones es el canto. Disfruto expresar mis emociones a través de la música y siento que el canto es una forma única de comunicarme con los demás. Ya sea en solitario en mi habitación o en grupo en karaokes, el canto es una actividad que siempre me llena de alegría.</p>
+      </div>
+      <div class="flex-item">
+        <img src="canto.jpg" alt="Disfrutando del canto">
+      </div>
+    </div>
+
+    <h2>Jugador Favorito</h2>
+    <img src="messi.jpg" alt="El mejor jugador del mundo" width="300">
+
+    <h2>Lista Ordenada</h2>
+    <ol>
+      <li><samp>Practicar yoga</samp></li>
+      <li><samp>Explorar nuevos lugares</samp></li>
+      <li><samp>Aprender a cocinar platos internacionales</samp></li>
+    </ol>
+
+    <h2>Lista No Ordenada</h2>
+    <ul>
+      <li><samp>Escuchar música clásica</samp></li>
+      <li><samp>Visitar museos de arte contemporáneo</samp></li>
+      <li><samp>Tomar clases de idiomas</samp></li>
+    </ul>
+
+    <h2>Tabla de Actividades Físicas</h2>
+    <table border="1" cellpadding="10" style="border-collapse: collapse; width: 60%;">
+      <tr>
+        <th style="background-color: #f2f2f2;">Actividad</th>
+        <th style="background-color: #f2f2f2;">Frecuencia</th>
+      </tr>
+      <tr>
+        <td><code>Correr</code></td>
+        <td><code>3 veces por semana</code></td>
+      </tr>
+      <tr>
+        <td><code>Natación</code></td>
+        <td><code>2 veces por semana</code></td>
+      </tr>
+      <tr>
+        <td><code>Fútbol</code></td>
+        <td><code>Una vez por semana</code></td>
+      </tr>
+      <tr>
+        <td><code>Ciclismo</code></td>
+        <td><code>4 veces por semana</code></td>
+      </tr>
+      <tr>
+        <td><code>Pilates</code></td>
+        <td><code>Una vez por semana</code></td>
+      </tr>
+      <tr>
+        <td><code>Levantamiento de pesas</code></td>
+        <td><code>3 veces por semana</code></td>
+      </tr>
+      <tr>
+        <td><code>Yoga</code></td>
+        <td><code>5 veces por semana</code></td>
+      </tr>
+    </table>
+    
+
+    <h2>Texto Formateado</h2>
+    <p>En mi última carrera de <strong>10 km</strong>, logré un tiempo de <em>42 minutos</em>, lo cual me llenó de satisfacción.</p>
+    <p>Los valores de <sup>respeto</sup> y <sub>compañerismo</sub> son fundamentales para mí.</p>
+    <p>Utilizo el término <abbr title="Código de Identificación Personal">PIN</abbr> para acceder a mi cuenta bancaria.</p>
+
+    <h2>Formulario</h2>
+    <form action="procesar.php" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" required>
+      <br>
+      <label for="interes">Interés:</label>
+      <select id="interes" name="interes">
+        <option value="deporte">Deporte</option>
+        <option value="musica">Música</option>
+        <option value="lectura">Lectura</option>
+      </select>
+      <br>
+      <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Multimedia</h2>
+    <audio controls>
+      <source src="selflees.mp3" type="audio/mpeg">
+    </audio>
+    
+    <video controls width="400">
+      <source src="piano.mp4" type="video/mp4">
+    </video>
+
+    <iframe width="560" height="315" src="https://youtu.be/xtQirM784oM" frameborder="0" allowfullscreen></iframe>
+    
+    <h2>Enlaces</h2>
+    <p>Enlace interno a <a href="https://es.wikipedia.org/wiki/Lionel_Messi">la sección de deporte</a>.</p>
+
+  </main>
+</body>
+</html>

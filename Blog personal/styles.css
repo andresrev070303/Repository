@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFA500; /* Fondo de color naranja */
+  color: #000; /* Texto en color negro */
+}
+
+header {
+  background-color: #FF8C00; /* Cambio en la tonalidad de naranja para el encabezado */
+  color: #fff;
+  padding: 10px 0;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #FFDAB9; /* Cambio en la tonalidad de naranja para el contenido principal */
+}
+
+main h1 {
+  margin-top: 0;
+}
+
+main img {
+  max-width: 100%;
+}
+/* Estilos para la estructura anterior */
+.flex-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.flex-item {
+  flex: 1;
+  padding: 10px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
